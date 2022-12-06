@@ -15,8 +15,8 @@ while load!="0" :
                 print("The secret number is bigger, guess another one\n")
             else :
                 print("The secret number is lower, guess another one\n")
-    try_times-= 1
-    print ("Number of try left :", try_times)
+        try_times-= 1
+        print ("Number of try left :", try_times)
         
     print("The secret number was :", secret_number)
     load=input("Quit : 0 | Any other key to Continue\n")
