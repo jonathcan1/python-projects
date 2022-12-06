@@ -1,6 +1,6 @@
 from random import randrange
 
-load=input("To quit, press : 0 | Any key to Continue\n")
+load=input("Quit : 0 | Any key to Continue\n")
 while load!="0" :
     secret_number = randrange (1, 50) #secret number here
     print("Enter a number between 1 & 50.\n")
@@ -19,4 +19,4 @@ while load!="0" :
     print ("Number of try left :", try_times)
         
     print("The secret number was :", secret_number)
-    load=input("To quit : 0 | Any other key to Continue\n")
+    load=input("Quit : 0 | Any other key to Continue\n")
